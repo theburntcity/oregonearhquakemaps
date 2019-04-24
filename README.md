@@ -16,5 +16,5 @@
         <li>Folium using LayerControl, Map, FeatureGroup and the plugin Heatmap.</li>
         <li>os using path</li>
 
-    </osl>
+    </ol>
 </p>
