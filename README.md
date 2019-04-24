@@ -15,6 +15,5 @@
         <li>Shapely.geometry using the Point.</li>
         <li>Folium using LayerControl, Map, FeatureGroup and the plugin Heatmap.</li>
         <li>os using path</li>
-
     </ol>
 </p>
