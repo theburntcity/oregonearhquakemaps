@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Flask App</title>
+    <meta name="description" content="Flask demo">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='site.css') }}">
+  </head>
+  <body>
+    <div class='container'>
+      <header>
+          My Flask App
+      </header>
+      <article>
+              <nav class='menuwrapper'>
+                      <ul class='menu'>
+                              <li><a href="{{ url_for('all') }}" target="blank">all</a></li>
+                              <li><a href="{{ url_for('g2') }}" target="blank">g2</a></li>
+                              <li><a href="{{ url_for('g3half') }}" target="blank">3ghalf</a></li>
+                              <li><a href="{{ url_for('depthm3half') }}" target="blank">depthm3half</a></li>
+                      </ul> 
+              </nav> 
+          {% block content %}
+          {% endblock %}
+      </article>
+      <aside></aside>
+      <footer>
+          &copy; 2019 Demo
+      </footer>
+  </div>
+     
+  </body>
+</html>
